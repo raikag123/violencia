@@ -1,0 +1,73 @@
+/* Fontes*/
+
+@font-face {
+     font-family: 'Roboto';
+     src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face{
+   font-family:'Roboto';
+     src: url('../fonts/Roboto/Roboto-Bold.ttf');
+     font-weight: bold; 
+    }
+
+/* Estilo principal*/
+
+body {
+    font-family: 'Roboto', 'Open Sans', 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.botao-azul {
+    background-color: lightblue;
+    border-color: lightskyblue;
+}
+nav p {
+    padding:0px 20px;
+}
+
+h1 {
+    font-size: 2.5em; 
+    /*color: rgb(50, 50, 50);*/
+    /*color: #323232;*/
+}
+
+h1:hover {
+    color: red;
+}
+
+nav a{
+    display:block;
+    background-color:#FABEF9;
+    border: 3px solid #FABEF7;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    background-image:;
+    
+}
+
+#principal {
+    background-image: url("../img/.jpeg");
+    background-size: cover;
+    background-position: top;
+    color: #FFF;
+    padding: 80px 30px 80px 30px;
+}
+
+#principal h1 {
+    text-shadow: #333 3px 3px 3px;
+}
+
+div p a {
+    font-weight: 700;
+}
